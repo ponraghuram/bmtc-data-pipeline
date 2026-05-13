@@ -7,3 +7,5 @@ Tech Stack : storage : Github, azure Gen 2
               Visualisation : Power BI or Databricks Dashboard
 
 Folder Structure : Raw Data : bronze , One big Data combined : silver layer , Busineess Ready data : Gold
+
+Raw csv --> bronze(delta) --> silver (cleaned) --> gold (aggregated)
